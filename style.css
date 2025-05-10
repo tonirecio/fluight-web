@@ -1,0 +1,125 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Fondo blanco predominante */
+  color: #333; /* Texto oscuro para buen contraste sobre blanco */
+  line-height: 1.6;
+}
+
+.hero {
+  background-color: #8f8f3c; /* Primer color para destacar el encabezado */
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto 1.5rem; /* Más espacio alrededor del logo */
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-intro {
+  font-size: 1.2rem;
+  color: #d4d454; /* Segundo color para resaltar la introducción */
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #69b4c2; /* Tercer color para el subtítulo */
+}
+
+.content {
+  background-color: #fff; /* Fondo blanco */
+  color: #333; /* Texto oscuro */
+  padding: 3rem 2rem;
+  text-align: center;
+  border-top: 1px solid #eee; /* Separador sutil */
+  border-bottom: 1px solid #eee; /* Separador sutil */
+}
+
+.links {
+  background-color: #fff; /* Fondo blanco */
+  padding: 2rem;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  background-color: #e67e82; /* Cuarto color para los botones, creando contraste */
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+.button:hover {
+  background-color: #cc6a6e; /* Un tono más oscuro al pasar el ratón */
+}
+
+footer {
+  background-color: #f9f9f9; /* Un gris muy claro para diferenciar del blanco principal */
+  color: #777;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+  border-top: 1px solid #eee; /* Separador sutil */
+}
+
+footer a {
+  color: #69b4c2; /* Uno de los colores para los enlaces del pie de página */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Diseño Responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .logo {
+    max-width: 120px;
+    margin-bottom: 1rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-intro {
+    font-size: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .content {
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .links {
+    padding: 1.5rem;
+  }
+
+  .button {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+  }
+}
